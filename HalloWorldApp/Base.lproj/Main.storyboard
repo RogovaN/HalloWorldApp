@@ -33,6 +33,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemTealColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="showTextButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="7e5-Lj-24t"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,10 +48,14 @@
                             <constraint firstItem="eNK-AR-kl9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="ycd-ix-jQg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLebel" destination="eNK-AR-kl9" id="aoB-H1-3wb"/>
+                        <outlet property="showTextButton" destination="LRR-IU-WHg" id="Tq6-Au-Pb8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+            <point key="canvasLocation" x="-184" y="33"/>
         </scene>
     </scenes>
     <resources>
